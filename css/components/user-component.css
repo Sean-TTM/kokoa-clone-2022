@@ -25,6 +25,7 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
 }
 
 .user-component__avatar--xl {
@@ -53,4 +54,18 @@
 .user-component__time {
   margin-bottom: 5px;
   display: block;
+}
+
+.user-component__subtitle span {
+  color: tomato;
+  display: block;
+  border: 2px solid tomato;
+  height: 14px;
+  width: 14px;
+  font-size: 14px;
+  border-radius: 50%;
+  border-color: tomato;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 5px;
 }
